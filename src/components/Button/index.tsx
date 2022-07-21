@@ -1,8 +1,8 @@
-import React, { ButtonHTMLAttributes, FC, ReactNode } from "react";
-import "./styled.scss";
+import React, { ButtonHTMLAttributes, FC, ReactNode } from "react"
+import "./styled.scss"
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  children: ReactNode;
+  children: ReactNode
 }
 
 const Button: FC<ButtonProps> = ({ children, ...props }) => {
@@ -10,7 +10,7 @@ const Button: FC<ButtonProps> = ({ children, ...props }) => {
     <button {...props} className="button">
       {children}
     </button>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button

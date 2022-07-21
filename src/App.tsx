@@ -1,13 +1,11 @@
-import React, { useState } from "react";
+import React from "react"
 
 const App = () => {
   return (
     <div className="container">
-      <div className="content">
-        Hello world !
-      </div>
+      <div className="content">Hello world !</div>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App

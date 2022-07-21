@@ -1,8 +1,8 @@
-import React, { FC, ReactNode } from "react";
-import "./styled.scss";
+import React, { FC, ReactNode } from "react"
+import "./styled.scss"
 
 interface ICard {
-  children: ReactNode;
+  children: ReactNode
 }
 
 const Card: FC<ICard> = ({ children, ...props }) => {
@@ -10,7 +10,7 @@ const Card: FC<ICard> = ({ children, ...props }) => {
     <div className="border" {...props}>
       {children}
     </div>
-  );
-};
+  )
+}
 
-export default Card;
+export default Card
